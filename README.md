@@ -1,5 +1,7 @@
 # Live2D Widget
 
+## 原出处:[https://github.com/stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget)
+
 ## Feature
 在网页中添加Live2D看板娘。  
 Add Live2D widget to web page.
