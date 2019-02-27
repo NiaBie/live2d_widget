@@ -12,9 +12,9 @@ Add Live2D widget to web page.
 ## Demo
 在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。需要使用支持WebGL的现代浏览器浏览。
 
-![](screenshot-1.png)
-![](screenshot-2.png)
-![](screenshot-3.png)
+![](screenshot/screenshot-1.png)
+![](screenshot/screenshot-2.png)
+![](screenshot/screenshot-3.png)
 
 ## 依赖 Dependencies
 本插件需要jQuery和font-awesome支持，请确保它们已在页面中加载，例如在`<head>`中加入：  
