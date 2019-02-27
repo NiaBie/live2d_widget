@@ -4,13 +4,13 @@
  */
 
 function initWidget(waifuPath, apiPath) {
-	if (screen.width <= 768 || (localStorage.getItem("waifu-display") && new Date().getTime() - localStorage.getItem("waifu-display") <= 86400000)) return;
+	if (screen.width <= 400 || (localStorage.getItem("waifu-display") && new Date().getTime() - localStorage.getItem("waifu-display") <= 86400000)) return;
 	localStorage.removeItem("waifu-display");
 	sessionStorage.removeItem("waifu-text");
 	$("body").append(`<div id="waifu">
-			<div id="waifu-tips"></div>
-			<canvas id="live2d" width="300" height="300"></canvas>
-			<div id="waifu-tool">
+			<div id="waifu-tips" style="opacity:0; position:absolute; bottom:210px; left:10px;"></div>
+			<canvas id="live2d" width="300" height="300" style="width:200px; height:200px; left:60px;"></canvas>
+			<div id="waifu-tool" style="position:absolute; left:250px; top:-30px">
 				<span class="fa fa-lg fa-comment"></span>
 				<span class="fa fa-lg fa-paper-plane"></span>
 				<span class="fa fa-lg fa-user-circle"></span>

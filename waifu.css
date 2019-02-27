@@ -4,12 +4,12 @@
 	left: 20;
 	z-index: 0;
 	line-height: 0;
-	transition: bottom .3s ease-in-out;
+  transform: translateY(0px)
 }
 #waifu:hover {
 	bottom: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 400px) {
 	#waifu {
 		display: none;
 	}
